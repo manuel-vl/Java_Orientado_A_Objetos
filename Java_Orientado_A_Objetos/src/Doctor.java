@@ -6,11 +6,13 @@ public class Doctor {
 
     Doctor(){
         System.out.println("Construyendo el objeto doctor");
-        id++;
+
     }
 
-    public Doctor(String name) {
+    public Doctor(String name, String speciality) {
+        id++;
         this.name = name;
+        this.speciality=speciality;
     }
 
     // Metodos
